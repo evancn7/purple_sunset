@@ -1,0 +1,5 @@
+p = float(input("What is the principal amount? "))
+r = float(input("What is the annual interest rate? "))
+n = float(input("How many times is the interest compounded? "))
+t = float(input("How many years will the principal amount invested for? "))
+print(int(p * (1 + (r / n)) ** (n * t)))
