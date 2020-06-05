@@ -5,7 +5,7 @@ import unittest
 
 class TestPPSN(unittest.TestCase):
     def test_normal(self):
-        testcase = '8348388Q'
+        testcase = '8348378Q'
         expected = '{} is valid'.format(testcase)
         self.assertEqual(check_ppsn(testcase), expected)
 
